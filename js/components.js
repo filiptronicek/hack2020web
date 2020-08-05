@@ -16,7 +16,3 @@ class About extends HTMLElement {
 }
 customElements.define("site-home", Home);
 customElements.define("site-about", About);
-
-const point = (route) => {
-    contentBox.innerHTML = `<site-${route} />`;
-};

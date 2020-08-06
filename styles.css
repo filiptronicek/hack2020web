@@ -58,3 +58,10 @@ main {
     max-width: 80vw;
   }
 }
+
+nav ul li {
+  cursor: pointer;
+}
+nav ul li:hover {
+  color: #00df00;
+}

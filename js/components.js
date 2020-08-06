@@ -1,7 +1,5 @@
 import cite from "./cite.js";
 
-const contentBox = document.getElementById("content");
-
 class Home extends HTMLElement {
     connectedCallback() {
         const currCite = cite();
@@ -23,5 +21,34 @@ class About extends HTMLElement {
         `;
     }
 }
+
+class Contact extends HTMLElement {
+    connectedCallback() {
+        this.innerHTML = `
+        Filip Troníček <br />
+        filip.tronicek@studentstc.cz <br />
+        
+        <br />
+
+        Josef Kahoun <br />
+        josef.kahoun@studentstc.cz <br />
+        
+        <br />
+
+        Kateřina Navrátilová <br />
+        katerina.navratilova@studentstc.cz <br />
+        
+        Eliška Pavlíčková <br />
+        eliska.pavlickova@studentstc.cz <br />
+        
+        <br />
+
+        Matyáš John <br />
+        matyas.john@studentstc.cz
+        `;
+    }
+}
+
 customElements.define("site-home", Home);
 customElements.define("site-about", About);
+customElements.define("site-contact", Contact)

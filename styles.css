@@ -43,6 +43,9 @@ main {
 .trees.active {
     opacity: 1;
 }
+main {
+  max-width: 30vw;
+}
 
 @media (prefers-color-scheme: dark) {
     body {
@@ -50,3 +53,8 @@ main {
         background: #0e0e0e;
     }
 } 
+@media only screen and (max-width: 800px) {
+  main {
+    max-width: 80vw;
+  }
+}

@@ -41,12 +41,14 @@
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
-    
+
     <link rel="stylesheet" href="https://unpkg.com/mvp.css" />-
     <link rel="stylesheet" href="styles.css" />
 
     <script src="./js/components.js" defer></script>
     <script src="./js/routes.js" defer></script>
+    <script src="./js/anim.js" defer></script>
+
   </head>
   <header>
     <nav>
@@ -69,10 +71,10 @@
     <center>
       <main>
         <h1>
-          <span class="trees">
+          <span class="trees" id="trz">
             <i class="gg-trees"></i>
           </span>
-          <u class="treeHeading">
+          <u class="treeHeading" onmouseover="animationDo()">
             GreenPoint
           </u>
         </h1>

@@ -1,3 +1,6 @@
 const treeH = document.querySelector(".treeHeading");
-const treeIc = document.querySelector(".tree");
+const treeIc = document.getElementById("trz");
 
+const animationDo = () => {
+    treeIc.classList.add("active");
+};

@@ -9,6 +9,7 @@ class Home extends HTMLElement {
         `;
     }
 }
+
 class About extends HTMLElement {
     connectedCallback() {
         this.innerHTML = `

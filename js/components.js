@@ -38,6 +38,8 @@ class Contact extends HTMLElement {
         Kateřina Navrátilová <br />
         katerina.navratilova@studentstc.cz <br />
         
+        <br />
+
         Eliška Pavlíčková <br />
         eliska.pavlickova@studentstc.cz <br />
         

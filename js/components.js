@@ -25,27 +25,27 @@ class About extends HTMLElement {
 class Contact extends HTMLElement {
     connectedCallback() {
         this.innerHTML = `
-        Filip Troníček <br />
+        <b>Filip Troníček</b> <br />
         filip.tronicek@studentstc.cz <br />
         
         <br />
 
-        Josef Kahoun <br />
+        <b>Josef Kahoun</b> <br />
         josef.kahoun@studentstc.cz <br />
         
         <br />
 
-        Kateřina Navrátilová <br />
+        <b>Kateřina Navrátilová </b><br />
         katerina.navratilova@studentstc.cz <br />
         
         <br />
 
-        Eliška Pavlíčková <br />
+        <b>Eliška Pavlíčková</b><br />
         eliska.pavlickova@studentstc.cz <br />
         
         <br />
 
-        Matyáš John <br />
+        <b>Matyáš John</b><br />
         matyas.john@studentstc.cz
         `;
     }

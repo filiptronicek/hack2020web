@@ -1,5 +1,5 @@
 export default [
-    { name: "Ernest Hemingway", "cite": "The Earth is fine place and worth fighting for."},
+    { name: "Ernest Hemingway", cite: "The Earth is fine place and worth fighting for."},
     { name: "Barbara Ward", cite: "We have forgotten how to be good guests, how to walk lightly on the earth as its other creatures do."},
     { name: "Mother Teresa", cite: "I only feel angry when I see waste. When I see people throwing away things we could use."},
     { name: "Wendell Berry", cite: "The Earth is what we all have in common."},

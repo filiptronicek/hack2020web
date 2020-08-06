@@ -1,9 +1,13 @@
+import cite from "./cite.js";
+
 const contentBox = document.getElementById("content");
 
 class Home extends HTMLElement {
     connectedCallback() {
+        const currCite = cite();
         this.innerHTML = `
-            An inovative way to <mark>act</mark>
+            <blockquote> "${currCite[0]}" </blockquote>
+            <mark>${currCite[1]}</mark>
         `;
     }
 }

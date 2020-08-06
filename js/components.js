@@ -5,7 +5,7 @@ class Home extends HTMLElement {
         const currCite = cite();
         this.innerHTML = `
             <blockquote> "${currCite[0]}" </blockquote>
-            <mark>${currCite[1]}</mark>
+            <mark>- ${currCite[1]}</mark>
         `;
     }
 }

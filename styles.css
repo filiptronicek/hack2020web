@@ -43,3 +43,10 @@ main {
 .trees.active {
     opacity: 1;
 }
+
+@media (prefers-color-scheme: dark) {
+    body {
+        color: white;
+        background: #0e0e0e;
+    }
+} 
